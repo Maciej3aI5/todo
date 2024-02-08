@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link href='https://fonts.googleapis.com/css?family=Protest Guerrilla' rel='stylesheet'>
+</head>
+<body>
+    <container>
+        <header class="w-4/6 m-auto rounded-xl mt-2 h-24 bg-blue-500 text-white text-6xl flex justify-center items-center"><p class="block">TO DO!</p></header>
+        <div class="w-1/2 min-h-96 p-6 bg-sky-50 rounded-xl border-solid border-black border-2 m-auto mt-16 grid grid-cols-1 grid-rows-3 text-xl lg:grid-cols-3 lg:grid-rows-1 lg:text-2xl" id="list">
+            <div class="bg-sky-100 rounded-xl lg:text-4xl text-2xl flex flex-col p-6" id="projekty">
+                <p class="block">Projekty:<p>
+                    <ul>
+                        
+                    </ul>
+                    <input id="nazwa" class="m-auto mb-1 w-full lg:w-3/5 h-8 rounded-xl text-xl">
+                    <button class="m-auto mt-1 w-full lg:w-3/5 h-8 rounded-xl text-xl text-white bg-blue-500" id="submit">Dodaj</button>
+            </div>
+            <div class="row-span-2 lg:row-span-1 lg:col-span-2" id="lista">
+
+            </div>
+        </div>
+    </container>
+    <script src="index.js"></script>
+</body>
+</html>
